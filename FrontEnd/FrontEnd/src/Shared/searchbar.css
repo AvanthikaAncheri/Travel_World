@@ -1,0 +1,55 @@
+.wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.group1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4;
+    
+}
+.search__bar{
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: max-content;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+.form__group span{
+    font-size: 1.8rem;
+    color: #ee6e6e;
+
+}
+.form__group input{
+    border: none;
+    font-size: 0.9rem;
+    color: var(--heading-color);
+    font-weight: 500;
+}
+.form__group input:focus{
+    outline: 0;
+}
+.form__group h6{
+    margin-bottom: -20px;
+}
+.form__group-fast{
+    border-right: 2px solid #ddd;
+}
+.search__icon{
+    font-size: 1.6rem;
+    padding: 0.2rem;
+    background: var(--secondary-color);
+    color: #fff;
+    border-radius: 10px 5px 10px 5px;
+    cursor: pointer;
+    font-family: var(--subtitle-font-name);
+}
+.service__offer{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
